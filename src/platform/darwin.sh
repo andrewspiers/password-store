@@ -46,3 +46,4 @@ qrcode() {
 GETOPT="$(brew --prefix gnu-getopt 2>/dev/null || { which port &>/dev/null && echo /opt/local; } || echo /usr/local)/bin/getopt"
 SHRED="srm -f -z"
 BASE64="openssl base64"
+SED="gsed"
